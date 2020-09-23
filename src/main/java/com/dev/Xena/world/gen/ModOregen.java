@@ -20,8 +20,8 @@ public class ModOregen {
     @SubscribeEvent
     public static void generateOres(FMLLoadCompleteEvent event) {
         for (Biome biome : ForgeRegistries.BIOMES) {
-genOre(biome,4,0,0,30,OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.POTIUM_ORE_BLOCK.get().getDefaultState(),3);
-            genOre(biome,2,0,0,25,OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.AMPHIUM_ORE_BLOCK.get().getDefaultState(),3);
+genOre(biome,5,0,0,30,OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.POTIUM_ORE_BLOCK.get().getDefaultState(),3);
+            genOre(biome,4,0,0,25,OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.AMPHIUM_ORE_BLOCK.get().getDefaultState(),3);
 
         }
     }
