@@ -1,9 +1,4 @@
-# This is an example mods.toml file. It contains the data relating to the loading mods.
-# There are several mandatory fields (#mandatory), and many more that are optional (#optional).
-# The overall format is standard TOML format, v0.5.0.
-# Note that there are a couple of TOML lists in this file.
-# Find more information on toml format here:  https://github.com/toml-lang/toml
-# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+
 modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
 loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
@@ -11,15 +6,15 @@ loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft versio
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="All rights reserved"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://github.com/KingOfTheGamesYT/xena/issues" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="examplemod" #mandatory
+modId="xena" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Example Mod" #mandatory
+displayName="Xena" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -27,16 +22,12 @@ displayURL="http://example.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Credits go to Lucy Lawless for playing Xena.Renee O' Connor for playing Gabrielle and Hope and Tataka and Mattie Merrill and Tisphone, and Shade of Hope and Xena and Dr Janice Covington. Ted Raimi for playing Joxer. Hudson Leick for playing Callisto. Karl Urban for playing Caesar. Kevin Smith for playing Ares. Danielle Cormack for playing Ephiny. Alexandra Tydings for playing Aphrodite. Adrienne Wilkinson for playing Eve. Marton Csokas for playing Borias. Crarles Mesure for playing Michael and Darnelle. Marie Matiko for playing Pao Ssu and K'ao Hsin. Elizabeth Pendergrast for playing Atropes. Jaimee Kaire Gataulu for playing Orphan #2. Robert Tapert for making Xena: Warrior Princess the TV Show. RedRoseWarrior aka DevMaster1015 aka DevMan_Minecraft for making Xena: Warrior Princess the mod" #optional
 # A text field displayed in the mod UI
-authors="Love, Cheese and small house plants" #optional
+authors="DevMaster1015 aka RedRoseWarrior1" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
-
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Xena: Warrior Princess is a mod bassed on the TV show Xena: Warrior Princess that brings Xena to Minecraft
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional
