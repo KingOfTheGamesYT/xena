@@ -49,7 +49,7 @@ public class Xena {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.AMETHYST.get());
+            return new ItemStack(RegistryHandler.POTIUM_ORE_BLOCK.get());
         }
     };
 
